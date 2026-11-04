@@ -64,20 +64,46 @@
 <main>
 
   <h1>Privacy Policy</h1>
-  <p class="sub">Exit Order &middot; <code>com.hakaru.exitorder</code> &middot; Last updated 23 September 2026</p>
+  <p class="sub">Exit Order &middot; <code>com.hakaru.exitorder</code> &middot; Last updated 4 November 2026</p>
 
   <p class="lede">
-    <strong>Exit Order collects nothing.</strong> It has no accounts, no
-    advertising, no analytics, and no network access at all. Everything the
-    game remembers stays on your device.
+    <strong>Exit Order collects as little as it can.</strong> There are no
+    ads, no analytics and no accounts of ours. The game works fully offline.
+    Two optional features use Google services, and only if you switch them
+    on: <strong>notifications</strong> and <strong>cloud save</strong>.
   </p>
 
   <h2>Information we collect</h2>
+  <p>We never ask for your name, email address, location or contacts. The
+    only things that leave your phone are these, and only for the feature
+    you chose:</p>
+  <ul>
+    <li>
+      <strong>A notification token (a device identifier).</strong> If you
+      allow notifications, the game registers with Google's Firebase Cloud
+      Messaging, which gives your installation a random token so that
+      messages can reach it. The game joins up to three topics with it:
+      essential notices, reminders and news, following your choices in
+      Settings. The token is not linked to your name or account. Until you
+      allow notifications, no token is created and nothing is sent.
+    </li>
+    <li>
+      <strong>Your game progress, in your own Google account.</strong> If you
+      turn on <em>Settings &rarr; Back up to Google Play Games</em>, the game
+      saves your finished levels, stars, streak, medals and League standing
+      to Google Play Games Saved Games, in your own Google account, so you
+      can restore them on another phone. Google stores it on your behalf; we
+      cannot see it. Signing in to Play Games also tells the game your Play
+      Games display name, which it shows in Settings and keeps on the phone.
+    </li>
+  </ul>
+  <p>We do not sell, rent or share any of this with anyone else.</p>
+
+  <h2>Reminders on your phone</h2>
   <p>
-    None. We do not collect, store, transmit or sell any personal information.
-    The app has no sign-in, no profile, no email capture and no contact form.
-    It does not request the Internet permission, so it cannot send anything
-    anywhere even in principle.
+    Daily reminders (a streak about to break, today's puzzle) are worked out
+    and scheduled on your phone from your own progress. Nothing is sent
+    anywhere to do this.
   </p>
 
   <h2>What is stored on your device</h2>
@@ -88,47 +114,70 @@
   <ul>
     <li>Which levels you have finished, and the stars you earned</li>
     <li>The level currently in progress, so closing the app loses nothing</li>
-    <li>Your hearts and when they last refilled</li>
-    <li>Your settings — sound, haptics, grid lines, theme</li>
+    <li>Your hearts, streak, medals and League standing</li>
+    <li>Your settings: sound, haptics, theme, notifications, cloud save</li>
   </ul>
-  <p>
-    This never leaves the device. It is not backed up to us, because there is
-    no "us" to back it up to. Other apps cannot read it.
-  </p>
+  <p>Other apps cannot read it.</p>
+
+  <h2>Services we use</h2>
+  <ul>
+    <li>
+      <strong>Firebase Cloud Messaging</strong> (Google), for notifications.
+      See <a href="https://firebase.google.com/support/privacy">Firebase's
+      privacy information</a>.
+    </li>
+    <li>
+      <strong>Google Play Games Services</strong> (Google), for cloud save.
+      See the <a href="https://policies.google.com/privacy">Google Privacy
+      Policy</a>.
+    </li>
+  </ul>
+  <p>Data sent to these services is encrypted in transit.</p>
 
   <h2>Permissions</h2>
-  <p>
-    The app requests one permission: <code>VIBRATE</code>, used for the small
-    haptic tap when an arrow leaves the board or a move is refused. You can
-    turn haptics off in Settings. No camera, microphone, location, contacts,
-    storage or network permissions are requested.
-  </p>
+  <ul>
+    <li><code>VIBRATE</code>: the small haptic tap when an arrow leaves the
+      board or a move is refused. Haptics can be turned off in Settings.</li>
+    <li><code>POST_NOTIFICATIONS</code> (Android 13 and newer): to show
+      notifications. Android asks you first, and you can say no.</li>
+    <li><code>INTERNET</code> and network state: for notifications and cloud
+      save only. The game itself plays offline.</li>
+    <li><code>RECEIVE_BOOT_COMPLETED</code>: so reminders already scheduled
+      still arrive after your phone restarts.</li>
+  </ul>
+  <p>No camera, microphone, location, contacts or storage permissions are
+    requested.</p>
 
   <h2>Advertising and analytics</h2>
   <p>
-    There are none. No advertising SDK, no analytics SDK, no crash reporting,
-    no tracking identifiers, no advertising ID.
+    There are none. No advertising SDK, no analytics, no crash reporting and
+    no advertising ID.
   </p>
 
   <h2>Children</h2>
   <p>
-    The game is suitable for all ages and is safe for children: since it
-    collects no data from anyone, it collects no data from children either.
-    It contains no ads, no purchases and no way to communicate with other
-    players.
+    The game is suitable for all ages. It has no ads, no purchases and no way
+    to talk to other players. The optional features above collect no
+    information that identifies a child.
   </p>
 
-  <h2>Deleting your data</h2>
-  <p>
-    Open <strong>Settings &rarr; Reset progress</strong> in the app to erase
-    every level, star and setting immediately. Uninstalling the app removes
-    all of it as well. Because nothing is ever sent off the device, there is
-    nothing for you to request from us.
-  </p>
+  <h2 id="delete">Your choices and deleting your data</h2>
+  <ul>
+    <li><strong>Notifications:</strong> turn them off in
+      <em>Settings &rarr; Notifications</em> or in Android's settings. The
+      game then leaves its topics.</li>
+    <li><strong>Cloud save:</strong> turn off <em>Back up to Google Play
+      Games</em> in Settings. To delete the saved copy, remove Exit Order's
+      data in the Google Play Games app or from your Google account.</li>
+    <li><strong>Everything on the phone:</strong> <em>Settings &rarr; Reset
+      progress</em> erases every level, star and streak. Uninstalling removes
+      all of it, the notification token included.</li>
+    <li>You can also email us and we will help with any request.</li>
+  </ul>
 
   <h2>Changes to this policy</h2>
   <p>
-    If the app ever starts collecting anything, this page will say so before
+    If the game starts collecting anything new, this page will say so before
     that version ships, and the date at the top will change.
   </p>
 

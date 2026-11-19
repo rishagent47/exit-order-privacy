@@ -64,20 +64,33 @@
 <main>
 
   <h1>Privacy Policy</h1>
-  <p class="sub">Exit Order &middot; <code>com.hakaru.exitorder</code> &middot; Last updated 4 November 2026</p>
+  <p class="sub">Exit Order &middot; <code>com.hakaru.exitorder</code> &middot; Last updated 19 November 2026</p>
 
   <p class="lede">
     <strong>Exit Order collects as little as it can.</strong> There are no
-    ads, no analytics and no accounts of ours. The game works fully offline.
-    Two optional features use Google services, and only if you switch them
+    analytics and no accounts of ours. From version 1.5.0 the game shows
+    <strong>ads served by Google AdMob</strong>, which is how it stays free.
+    Two further features use Google services, and only if you switch them
     on: <strong>notifications</strong> and <strong>cloud save</strong>.
   </p>
 
   <h2>Information we collect</h2>
   <p>We never ask for your name, email address, location or contacts. The
-    only things that leave your phone are these, and only for the feature
-    you chose:</p>
+    only things that leave your phone are these:</p>
   <ul>
+    <li>
+      <strong>Advertising data, collected by Google AdMob.</strong> To show
+      ads, measure them and prevent fraud, Google's Mobile Ads SDK collects
+      your device's <strong>advertising ID</strong>, an approximate location
+      derived from your IP address, and device and diagnostic information
+      (such as device model, operating system, app version, and crash and
+      performance data about the ads). Google processes this under its own
+      policies; we do not receive it. If you are in the European Economic
+      Area, the UK or Switzerland, the game asks for your consent through
+      Google's consent form before any ad is requested, and you can change
+      your choice at any time under <em>Settings &rarr; Ad privacy
+      choices</em>.
+    </li>
     <li>
       <strong>A notification token (a device identifier).</strong> If you
       allow notifications, the game registers with Google's Firebase Cloud
@@ -97,7 +110,8 @@
       Games display name, which it shows in Settings and keeps on the phone.
     </li>
   </ul>
-  <p>We do not sell, rent or share any of this with anyone else.</p>
+  <p>Apart from Google acting as our ad provider as described above, we do
+    not sell, rent or share any of this with anyone else.</p>
 
   <h2>Reminders on your phone</h2>
   <p>
@@ -122,6 +136,14 @@
   <h2>Services we use</h2>
   <ul>
     <li>
+      <strong>Google AdMob</strong> (Google), for ads, including Google's
+      User Messaging Platform for consent. See
+      <a href="https://policies.google.com/technologies/partner-sites">How
+      Google uses information from sites or apps that use its services</a>
+      and the <a href="https://policies.google.com/privacy">Google Privacy
+      Policy</a>.
+    </li>
+    <li>
       <strong>Firebase Cloud Messaging</strong> (Google), for notifications.
       See <a href="https://firebase.google.com/support/privacy">Firebase's
       privacy information</a>.
@@ -140,8 +162,11 @@
       board or a move is refused. Haptics can be turned off in Settings.</li>
     <li><code>POST_NOTIFICATIONS</code> (Android 13 and newer): to show
       notifications. Android asks you first, and you can say no.</li>
-    <li><code>INTERNET</code> and network state: for notifications and cloud
-      save only. The game itself plays offline.</li>
+    <li><code>INTERNET</code> and network state: for ads, notifications and
+      cloud save. The puzzles themselves play offline.</li>
+    <li><code>AD_ID</code>: lets Google AdMob read the advertising ID. You
+      can reset it or delete it in Android's settings (<em>Settings &rarr;
+      Privacy &rarr; Ads</em>).</li>
     <li><code>RECEIVE_BOOT_COMPLETED</code>: so reminders already scheduled
       still arrive after your phone restarts.</li>
   </ul>
@@ -150,19 +175,31 @@
 
   <h2>Advertising and analytics</h2>
   <p>
-    There are none. No advertising SDK, no analytics, no crash reporting and
-    no advertising ID.
+    The game shows ads from Google AdMob: a full-screen ad between levels
+    from time to time (never during a puzzle, and never on your first day of
+    play), and an optional video you can choose to watch for an extra hint.
+    There are no banner ads. Ads may be personalised only where you have
+    agreed, or where the law allows it; you can opt out of personalised ads
+    in Android's settings or under <em>Settings &rarr; Ad privacy
+    choices</em> where that option is shown.
   </p>
+  <p>The game has no analytics and no crash reporting of its own.</p>
 
   <h2>Children</h2>
   <p>
-    The game is suitable for all ages. It has no ads, no purchases and no way
-    to talk to other players. The optional features above collect no
-    information that identifies a child.
+    The game is not directed at children under 13. It has no purchases and
+    no way to talk to other players, and we do not knowingly collect
+    personal information from children.
   </p>
 
   <h2 id="delete">Your choices and deleting your data</h2>
   <ul>
+    <li><strong>Ads:</strong> change your consent under <em>Settings &rarr;
+      Ad privacy choices</em> (shown where consent applies), and reset or
+      delete your advertising ID in Android's settings. To ask Google about
+      data it holds, see the
+      <a href="https://policies.google.com/privacy">Google Privacy
+      Policy</a>.</li>
     <li><strong>Notifications:</strong> turn them off in
       <em>Settings &rarr; Notifications</em> or in Android's settings. The
       game then leaves its topics.</li>
